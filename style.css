@@ -1,0 +1,106 @@
+body {
+  background: #ebedef;
+  color: #33363a;
+  font-family: "Muli", sans-serif;
+  font-size: 18px;
+  font-weight: semi-bold;
+  line-height: 25px;
+}
+
+h1, h2, h3 {
+  color: #225768;
+  font-family: 'Livvic', sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: lighter;
+  font-weight: 450;
+}
+
+a {
+  font-family: 'Livvic', sans-serif;
+  text-decoration: none;
+  color: #4a9fed;
+  font-weight: 700;
+  font-size: 16px;
+}
+a:hover {
+  color: #323639;
+}
+
+
+.container {
+  width: 700px;
+  margin: 35px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #2067a2;
+  color: white;
+  margin: 5;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #4c8bf5;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #474749;
+}
+
+.list-inline i:hover {
+  color: #4c8bf5;
+}
